@@ -1,0 +1,134 @@
+#CANVAS
+{
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#CONTROL
+{
+	background: transparent;
+	display: inline-flex;
+	height: 20%;
+	left: 20%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 80%;
+	width: 60%;
+}
+
+#CONTROL_CENTER
+{
+	background: transparent;
+	height: 100%;
+	left: 20%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 60%;
+}
+
+#CONTROL_LEFT
+{
+	align-items: flex-end;
+	background-color: transparent;
+	display: flex;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 20%;
+}
+
+#CONTROL_RIGHT
+{
+	align-items: flex-end;
+	background-color: transparent;
+	display: flex;
+	height: 100%;
+	left: 80%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 20%;
+}
+
+#HP
+{
+	background: radial-gradient(ellipse farthest-corner at 10% 10%, #b44 30%, #822 70%);
+	border-radius: 50%;
+	height: 0;
+	left: 0;
+	margin: 0;
+	padding-bottom: 100%;
+	top: 0;
+	width: 100%;
+}
+
+#HP_BAR
+{
+	background: rgba(238, 238, 238, 0.9);
+	left: 0;
+	margin: 0;
+	padding-bottom: 25%;
+	top: 0;
+	width: 100%;
+}
+
+#MP
+{
+	background: radial-gradient(ellipse farthest-corner at 10% 10%, #44b 30%, #228 70%);
+	border-radius: 50%;
+	height: 0;
+	left: 0;
+	margin: 0;
+	padding-bottom: 100%;
+	top: 0;
+	width: 100%;
+}
+
+#MP_BAR
+{
+	background: rgba(238, 238, 238, 0.9);
+	left: 0;
+	margin: 0;
+	padding-bottom: 70%;
+	top: 0;
+	width: 100%;
+}
+
+#XP
+{
+	background: #c6c1cc;
+	border-radius: 10em;
+	box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
+	height: 10%;
+	width: 100%;
+}
+
+#XP_BAR
+{
+	background: #a6c151;
+	border-radius: 10em;
+	box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
+	height: 100%;
+	width: 30%;
+}
+
+body
+{
+	background: #eee;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	-webkit-user-select: none;
+	width: 100%;
+}
