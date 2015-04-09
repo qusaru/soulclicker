@@ -21,104 +21,198 @@
 	width: 60%;
 }
 
-#CONTROL_CENTER
-{
-	background: transparent;
-	height: 100%;
-	left: 20%;
-	margin: 0;
-	padding: 0;
-	top: 0;
-	width: 60%;
-}
+	#CONTROL_CENTER
+	{
+		background: transparent;
+		height: 100%;
+		left: 20%;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		width: 60%;
+	}
 
-#CONTROL_LEFT
-{
-	align-items: flex-end;
-	background-color: transparent;
-	display: flex;
-	height: 100%;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	top: 0;
-	width: 20%;
-}
+		#SAIL
+		{
+			align-items: center;
+			background: transparent;
+			display: inline-flex;
+			height: 90%;
+			justify-content: center;
+			width: 100%;
+		}
 
-#CONTROL_RIGHT
-{
-	align-items: flex-end;
-	background-color: transparent;
-	display: flex;
-	height: 100%;
-	left: 80%;
-	margin: 0;
-	padding: 0;
-	top: 0;
-	width: 20%;
-}
+			#S
+			{
+				align-items: center;
+				background: #d63;
+				border-radius: 1em;
+				box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4);
+				color: #eee;
+				cursor: pointer;
+				display: flex;
+				font-size: 2em;
+				height: 80%;
+				justify-content: center;
+				margin: 2%;
+				width: 20%
+			}
 
-#HP
-{
-	background: radial-gradient(ellipse farthest-corner at 10% 10%, #b44 30%, #822 70%);
-	border-radius: 50%;
-	height: 0;
-	left: 0;
-	margin: 0;
-	padding-bottom: 100%;
-	top: 0;
-	width: 100%;
-}
+				#S:active
+				{
+					box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4) inset;
+				}
 
-#HP_BAR
-{
-	background: rgba(238, 238, 238, 0.9);
-	left: 0;
-	margin: 0;
-	padding-bottom: 25%;
-	top: 0;
-	width: 100%;
-}
+			#A
+			{
+				align-items: center;
+				background: #3d6;
+				border-radius: 1em;
+				box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4);
+				color: #eee;
+				cursor: pointer;
+				display: flex;
+				font-size: 2em;
+				height: 80%;
+				justify-content: center;
+				margin: 2%;
+				width: 20%
+			}
 
-#MP
-{
-	background: radial-gradient(ellipse farthest-corner at 10% 10%, #44b 30%, #228 70%);
-	border-radius: 50%;
-	height: 0;
-	left: 0;
-	margin: 0;
-	padding-bottom: 100%;
-	top: 0;
-	width: 100%;
-}
+				#A:active
+				{
+					box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4) inset;
+				}
 
-#MP_BAR
-{
-	background: rgba(238, 238, 238, 0.9);
-	left: 0;
-	margin: 0;
-	padding-bottom: 70%;
-	top: 0;
-	width: 100%;
-}
+			#I
+			{
+				align-items: center;
+				background: #63d;
+				border-radius: 1em;
+				box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4);
+				color: #eee;
+				cursor: pointer;
+				display: flex;
+				font-size: 2em;
+				height: 80%;
+				justify-content: center;
+				margin: 2%;
+				width: 20%
+			}
 
-#XP
-{
-	background: #c6c1cc;
-	border-radius: 10em;
-	box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
-	height: 10%;
-	width: 100%;
-}
+				#I:active
+				{
+					box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4) inset;
+				}
 
-#XP_BAR
-{
-	background: #a6c151;
-	border-radius: 10em;
-	box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
-	height: 100%;
-	width: 30%;
-}
+			#L
+			{
+				align-items: center;
+				background: #dd6;
+				border-radius: 1em;
+				box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4);
+				color: #eee;
+				cursor: pointer;
+				display: flex;
+				font-size: 2em;
+				height: 80%;
+				justify-content: center;
+				margin: 2%;
+				width: 20%
+			}
+
+				#L:active
+				{
+					box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.4) inset;
+				}
+
+		#XP
+		{
+			background: #c6c1cc;
+			border-radius: 10em;
+			box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
+			height: 10%;
+			width: 100%;
+		}
+
+			#XP_BAR
+			{
+				background: #a6c151;
+				border-radius: 10em;
+				box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.4) inset;
+				height: 100%;
+				width: 30%;
+			}
+
+	#CONTROL_LEFT
+	{
+		align-items: flex-end;
+		background-color: transparent;
+		display: flex;
+		height: 100%;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		width: 20%;
+	}
+
+		#HP
+		{
+			background: radial-gradient(ellipse farthest-corner at 10% 10%, #b44 30%, #822 70%);
+			border-radius: 50%;
+			height: 0;
+			left: 0;
+			margin: 0;
+			padding-bottom: 100%;
+			top: 0;
+			width: 100%;
+		}
+
+			#HP_BAR
+			{
+				background: rgba(238, 238, 238, 0.9);
+				left: 0;
+				margin: 0;
+				padding-bottom: 25%;
+				top: 0;
+				width: 100%;
+			}
+
+	#CONTROL_RIGHT
+	{
+		align-items: flex-end;
+		background-color: transparent;
+		display: flex;
+		height: 100%;
+		left: 80%;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		width: 20%;
+	}
+
+		#MP
+		{
+			background: radial-gradient(ellipse farthest-corner at 10% 10%, #44b 30%, #228 70%);
+			border-radius: 50%;
+			height: 0;
+			left: 0;
+			margin: 0;
+			padding-bottom: 100%;
+			top: 0;
+			width: 100%;
+		}
+
+			#MP_BAR
+			{
+				background: rgba(238, 238, 238, 0.9);
+				left: 0;
+				margin: 0;
+				padding-bottom: 70%;
+				top: 0;
+				width: 100%;
+			}
 
 body
 {
